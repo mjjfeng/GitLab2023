@@ -6,7 +6,11 @@ public class GitLab {
         
     }
     
+    /**
+     * original code :)
+     */
     public static void main(String[] args) {
-        GitLabHelper helper = new GitLabHelper("Victoria", "Josh");
-        helper.PrintWelcomeMessage();    }
+        GitLabHelper helper = new GitLabHelper(new String[] { "Victoria", "Joshua"});
+        helper.PrintWelcomeMessage();
+    }
 }
